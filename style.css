@@ -10,6 +10,10 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+pre {
+  text-align:left;
+  margin: auto;
+}
 
 header {
   background-color: rgb(25, 25, 67);
@@ -58,7 +62,7 @@ header button:hover {
 .tec {
   background-color: #e9e9e9;
   padding: 10px;
-  height: 500px;
+  height: 400px;
   text-align: center;
   font-variant: small-caps;
 }
@@ -71,7 +75,6 @@ header button:hover {
 .tec > .tecnicas > div {
   margin: 5px;
   text-align: center;
-  border: 1px solid;
   width: 90px;
   height: 90px;
   transition: all 1s;
@@ -93,13 +96,16 @@ header button:hover {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/390px-Unofficial_JavaScript_logo_2.svg.png");
 }
 #html {
+  color: #00000000;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png");
 }
 #css {
+  color: #00000000;
   background-size: 70px;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/150px-Official_CSS_Logo.svg.png");
 }
 #git {
+  color: #00000000;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/270px-GitHub_Invertocat_Logo.svg.png");
 }
 #react {
