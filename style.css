@@ -10,7 +10,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
-pre {
+.pre {
   text-align:left;
   margin: auto;
 }
@@ -83,7 +83,7 @@ header button:hover {
 .tec > .tecnicas > div:hover {
   transform: scale(1.05);
 }
-.hidden pre {
+.hidden .pre {
   display: none;
 }
 .tecnicas div {
