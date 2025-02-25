@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  width: 99vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgb(25, 25, 67);
+  color: rgb(34, 34, 34);
+  height: 400px;
+  background-image: url(./imagens/hero.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 200px #3f2645ac;
+}
+header h1 {
+  text-align: left;
+  font-variant: small-caps;
+  margin-left: 30px;
+  padding: 120px 0px 5px 0px;
+}
+
+header p {
+  margin-left: 30px;
+  font-variant: small-caps;
+  font-size: large;
+  background-color: rgba(255, 255, 255, 0.638);
+  width: fit-content;
+}
+
+header button {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(116, 116, 116, 0.379);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.575);
+  color: white;
+  font-size: large;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+header button:hover {
+  transform: scale(1.06);
+  background-color: rgba(116, 116, 116, 0.651);
+}
+
+.tec {
+  background-color: #e9e9e9;
+  padding: 10px;
+  height: 500px;
+  text-align: center;
+  font-variant: small-caps;
+}
+.tec > .tecnicas {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.tec > .tecnicas > div {
+  margin: 5px;
+  text-align: center;
+  border: 1px solid;
+  width: 90px;
+  height: 90px;
+  transition: all 1s;
+}
+
+.tec > .tecnicas > div:hover {
+  transform: scale(1.05);
+}
+.hidden pre {
+  display: none;
+}
+.tecnicas div {
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-variant: small-caps;
+  background-size: 90px;
+}
+#js {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/390px-Unofficial_JavaScript_logo_2.svg.png");
+}
+#html {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png");
+}
+#css {
+  background-size: 70px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/150px-Official_CSS_Logo.svg.png");
+}
+#git {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/270px-GitHub_Invertocat_Logo.svg.png");
+}
+#react {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/300px-React-icon.svg.png");
+}
+.projeto {
+  border-radius: 5px;
+  background-color: #14161a;
+  padding: 10px;
+}
+
+.projeto h1 {
+  margin: 5px;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.projeto p {
+  width: fit-content;
+  margin-bottom: 20px;
+  font-variant: small-caps;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.projeto button {
+  border-radius: 4px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+section#contact {
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
